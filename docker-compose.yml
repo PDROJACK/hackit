@@ -1,0 +1,18 @@
+version: "3"
+services: 
+    frontend:
+        container_name: frontend
+        image: pdrojack/hackit:frontend
+        depends_on: 
+            - backend
+        ports:
+            - "80:80"
+
+    backend:
+        container_name: backend
+        restart: always
+        image: pdrojack/hackit:backend
+        ports: 
+            - "9000:9000"
+        links:
+            frontend

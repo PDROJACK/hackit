@@ -6,6 +6,6 @@ LABEL APPLICATION="hackit"
 
 COPY target/backend-0.0.1-SNAPSHOT.jar backend.jar
 
-EXPOSE 9050
+EXPOSE 9000
 
 ENTRYPOINT ["java", "-jar", "backend.jar"]
