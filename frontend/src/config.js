@@ -1,6 +1,6 @@
 const config ={
     production: {
-        BACKEND: 'http://localhost:9000/backend',
+        BACKEND: 'http://backend:9000/',
     }, 
     development: {
         BACKEND: 'http://localhost:9000/',
