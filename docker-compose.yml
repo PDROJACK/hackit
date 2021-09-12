@@ -12,5 +12,6 @@ services:
         container_name: backend
         restart: always
         image: pdrojack/hackit:latest_backend
+        build: ./backend
         ports: 
             - "9000:9000"
