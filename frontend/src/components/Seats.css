@@ -1,0 +1,79 @@
+.App {
+  text-align: center;
+}
+.fill-window {
+  height: 100%;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+}
+
+.theatre {
+  height: fit-content;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.node {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  outline: 1px solid rgba(144, 175, 175, 0.75);
+  display: inline-block;
+  font-size: 9px;
+}
+
+.available {
+  cursor: pointer;
+}
+
+.yours {
+  cursor: pointer;
+  background-color: blue;
+}
+
+.selected {
+  background-color: orange;
+  cursor: pointer;
+}
+
+.reserved {
+  background-color: grey;
+}
+
+.grid {
+  display: grid;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
