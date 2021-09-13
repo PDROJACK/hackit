@@ -28,3 +28,15 @@ List of things in scope of my submission:
 4. Redux
 5. Docker and Docker Compose
 6. Azure Cloud
+
+### Seat Booking Workflow
+1. A movie is mapped to one theatre with one seat configuration
+2. Seats can be in state: A = Available, R = Reserved, B = Booked
+3. Booked and Reserved Seats are painted grey
+4. When a user selects a seat, we first check with backend if the seat is picked by another user. Then we allot the seat to the user.
+5. On clicking Book seats it will reserve the seats
+
+### Known Problems
+1. Sometimes seats will not update automatically, since I am using http requests. To make real-time changes I'll have to use WebSockets. So refresh if something doesnt update.
+
+2. Design is not good

@@ -100,5 +100,5 @@ export const confirmBooking = (data) => async (dispatch) => {
     })
     
     dispatch(action);
-    if(res.status === 200) return true;
+    return res;
 }

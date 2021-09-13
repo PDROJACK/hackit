@@ -9,6 +9,19 @@
   overflow: hidden;
 }
 
+/* MOVIE LEFT BAR */
+.poster {
+  margin-left: 20px;
+}
+
+.details {
+  margin-left: 20px;
+}
+
+.movie-details {
+  margin-top: 20px;
+}
+
 .theatre {
   height: fit-content;
 }

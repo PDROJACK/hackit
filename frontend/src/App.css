@@ -8,16 +8,17 @@
 }
 
 .movie {
-  background-color: black;
+  background-color: #ebf6ec;
 }
 
 .booking {
-  background-color: grey;
+  background-color: #ecebf6;
 }
 
 .node {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
+  margin-right: 2px;
   background-color: white;
   outline: 1px solid rgba(144, 175, 175, 0.75);
   display: inline-block;

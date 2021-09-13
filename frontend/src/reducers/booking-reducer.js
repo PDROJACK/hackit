@@ -19,7 +19,6 @@ const initialState = { user: null,selectedSeats: [], theatres: [], currentTheatr
 const bookingReducer = (state=initialState, action) => {
     switch (action.type) {
         case "getBooking":
-
             return {...state, selectedSeats: action.data.seats, bookingId: action.data._id, status: action.data.status}
 
         case "setCurrentTheatre":

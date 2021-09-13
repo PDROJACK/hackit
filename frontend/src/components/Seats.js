@@ -117,11 +117,7 @@ const Seats = ({ booking, selectSeat, getBooking, getTheatre, checkSeat }) => {
   return (
     <>
       <div className="grid">
-        <img
-          src="https://1.bp.blogspot.com/--rmycgzN5WE/XrJIfs9sK-I/AAAAAAAAFNk/5cgxVYdfwHwOhzrVTrB3MjPnjjNdn1SwQCLcBGAsYHQ/s1600/trapezoid.png"
-          height="150"
-          width="400"
-        />
+
         {booking.seats ? layGrid() : null}
       </div>
     </>
